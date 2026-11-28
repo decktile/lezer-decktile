@@ -9,7 +9,7 @@ import { languages } from "@codemirror/language-data";
 import { parseMixed } from "@lezer/common";
 import { styleTags, tags as t } from "@lezer/highlight";
 import type { BlockContext, Line, MarkdownConfig } from "@lezer/markdown";
-import { pdg, pdgLanguage } from "@predictygraph/lezer-pdg";
+import { pdg, pdgLanguage } from "lezer-pdg";
 
 const DIRECTIVE = /^@[A-Za-z][\w-]*/;
 const FENCE_OPEN = /^:::[ \t]*[A-Za-z][\w-]*/;

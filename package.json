@@ -1,5 +1,5 @@
 {
-  "name": "@decktile/lezer-decktile",
+  "name": "lezer-decktile",
   "version": "0.1.0",
   "description": "CodeMirror 6 language support for decktile Markdown slide decks (frontmatter, slides, @directives, ::: fences, pdg code blocks)",
   "directories": {
@@ -31,7 +31,7 @@
     "@lezer/common": "^1.5.6",
     "@lezer/highlight": "^1.2.5",
     "@lezer/markdown": "^1.8.1",
-    "@predictygraph/lezer-pdg": "^0.1.0"
+    "lezer-pdg": "^0.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.6.6",
